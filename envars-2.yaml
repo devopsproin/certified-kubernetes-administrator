@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: env-var-2
+  labels:
+    purpose: demonstrate-env-var-2
+spec:
+  containers:
+  - name: env-var
+    image: wordpress
+    env:
+    - name: WORDPRESS_VERSION
+      value: "5.2.2"
+    - name: WORDPRESS_USER
+      value: "ubuntu"
+    command: ["echo"]
+    args: ["$(WORDPRESS_VERSION) $(WORDPRESS_USER)"]
+
+kubectl apply -f env.yaml
+kubectl get pods
+kubectl logs env-var-2
