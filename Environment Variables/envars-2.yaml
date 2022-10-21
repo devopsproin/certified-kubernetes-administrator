@@ -15,7 +15,3 @@ spec:
       value: "ubuntu"
     command: ["echo"]
     args: ["$(WORDPRESS_VERSION) $(WORDPRESS_USER)"]
-
-kubectl apply -f env.yaml
-kubectl get pods
-kubectl logs env-var-2

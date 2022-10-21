@@ -13,8 +13,3 @@ spec:
       value: "5.2.2"
     - name: WORDPRESS_USER
       value: "ubuntu"
-
-
-kubectl apply -f env.yaml
-kubectl get pods
-kubectl exec env-var -- printenv
