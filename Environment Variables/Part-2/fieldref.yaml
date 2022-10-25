@@ -32,8 +32,3 @@ spec:
             fieldRef:
               fieldPath: status.podIP
   restartPolicy: Never
-
-kubectl apply -f file-name
-kubectl get pods
-kubectl logs dapi-envars
-kubectl exec dapi-envars -- printenv

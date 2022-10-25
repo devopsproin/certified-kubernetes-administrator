@@ -1,8 +1,5 @@
 # Commands used in video
 
-## To Build Docker image
-`docker build -t wordpress .`
-
 ## To apply yaml files
 `kubectl apply -f <file-name>`
 
