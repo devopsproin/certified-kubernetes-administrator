@@ -1,9 +1,9 @@
 ## Certified-Kubernetes-Administrator Preparation Course
 
-### Topics Covered -
+## Topics Covered -
 
 
-### Kubernetes Basics
+### [Kubernetes Basics](https://www.youtube.com/watch?v=cxCmUBMpuIk&list=PLY63ZQr2Y5BHkJJhwPjJuJ41CIyv3m7Ru&index=2)
 ### Kubernetes Control Plane Components
 ### Setup Kubernetes Cluster
 ### Replicaset
