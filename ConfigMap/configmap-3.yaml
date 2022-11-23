@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: configmap-demo-3
+spec:
+  containers:
+  - name: demo-container
+    image: nginx
+    volumeMounts:
+      - name: config
+        mountPath: /etc/config
+  volumes:
+  - name: config
+    configMap:
+      name: configmap-3
