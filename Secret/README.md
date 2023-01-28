@@ -36,7 +36,7 @@ kubectl create secret tls my-tls-secret \
 `kubectl exec -it <pod-name> -- bash`
 
 ## To extract pod's yaml file
-kubectl get pod <pod-name> -o yaml
+kubectl get pod pod-name -o yaml
 
 ## To decode the encrypted data
-echo "<data>" | base64 -d
+echo "data" | base64 -d
