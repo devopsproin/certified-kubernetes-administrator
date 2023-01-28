@@ -13,8 +13,8 @@ kubectl create secret docker-registry docker-secret \
 
 ### TLS Secret
 kubectl create secret tls my-tls-secret \
-  --cert=data/serverca.crt \
-  --key=data/servercakey.pem
+  --cert=/root/data/serverca.crt \
+  --key=/root/data/servercakey.pem
 
 
 ## To apply yaml files
