@@ -5,16 +5,10 @@
 kubectl create secret generic db-secret --from-literal=username=dbuser --from-literal=password=Y4nys7f11
 
 ### Docker-registry Secret
-kubectl create secret docker-registry docker-secret \
-  --docker-email=example@gmail.com \
-  --docker-username=dev \
-  --docker-password=pass1234 \
-  --docker-server=my-registry.example:5000
+kubectl create secret docker-registry docker-secret --docker-email=example@gmail.com --docker-username=dev --docker-password=pass1234 --docker-server=my-registry.example:5000
 
 ### TLS Secret
-kubectl create secret tls my-tls-secret \
-  --cert=/root/data/serverca.crt \
-  --key=/root/data/servercakey.pem
+kubectl create secret tls my-tls-secret --cert=/root/data/serverca.crt --key=/root/data/servercakey.pem
 
 
 ## To apply yaml files
