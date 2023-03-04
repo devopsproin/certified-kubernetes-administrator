@@ -22,4 +22,6 @@
 ### [Commands and Arguments](https://www.youtube.com/watch?v=YNFxQXXTBeA&list=PLY63ZQr2Y5BHkJJhwPjJuJ41CIyv3m7Ru&index=18)
 ### [Environment Variables](https://www.youtube.com/watch?v=e4ouEDd3Wrk&list=PLY63ZQr2Y5BHkJJhwPjJuJ41CIyv3m7Ru&index=19)
 ### [Expose Pod Information Through Environment Variables](https://www.youtube.com/watch?v=byjjMArir_c&list=PLY63ZQr2Y5BHkJJhwPjJuJ41CIyv3m7Ru&index=20)
-### [Expose Pod Information Through Volume Files](https://www.youtube.com/watch?v=fYjYzyZeaXM&list=PLY63ZQr2Y5BHkJJhwPjJuJ41CIyv3m7Ru&index=21)
+### [Configmap in Kubernetes](https://youtu.be/EKDmz49BhX8)
+### [Kubernetes Secrets](https://youtu.be/zi_8gccSsig)
+### [Kubernetes Ingress](https://youtu.be/-2VKSYffdYM)
