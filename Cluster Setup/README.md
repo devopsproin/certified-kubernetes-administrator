@@ -88,7 +88,7 @@ Add some settings to sysctl
 ```
 sysctl -w net.ipv4.ip_forward=1
 ```
-## Initialize the Cluster
+## Initialize the Cluster (Run only on master)
 Use the following command to initialize the cluster:
 ```
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
@@ -109,7 +109,7 @@ Change ownership of the file:
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
-## Install Flannel
+## Install Flannel (Run only on master)
 Use the following command to install Flannel:
 ```
 kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/v0.20.2/Documentation/kube-flannel.yml
