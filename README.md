@@ -1,4 +1,4 @@
-## Certified-Kubernetes-Administrator Preparation Course
+## Certified Kubernetes Administrator Tutorials 2023
 
 ## Topics Covered -
 
@@ -26,3 +26,5 @@
 ### [Kubernetes Secrets](https://youtu.be/zi_8gccSsig)
 ### [Kubernetes Ingress](https://youtu.be/-2VKSYffdYM)
 ### [Kubernetes Kind](https://youtu.be/DfmxNzbGPzY)
+### [Ingress Demo](https://youtu.be/pcADx8JFUIA)
+### [Multi-Node Kubernetes Cluster with Kubeadm](https://youtu.be/6_i1hXXviHw)
