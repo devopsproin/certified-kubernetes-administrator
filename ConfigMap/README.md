@@ -1,5 +1,5 @@
 # ConfigMap in Kubernetes
-This repository contains the YAML files used in the video tutorial ConfigMap in Kubernetes: Solving Problems with Environment Variables and Creating ConfigMaps. In this video, you will learn how to use ConfigMaps to manage configuration data in your Kubernetes cluster.
+This repository contains the YAML files used in the video tutorial [ConfigMap in Kubernetes: Solving Problems with Environment Variables and Creating ConfigMaps](https://youtu.be/EKDmz49BhX8). In this video, you will learn how to use ConfigMaps to manage configuration data in your Kubernetes cluster.
 
 ## Prerequisites
 Before starting with this tutorial, you should have a basic understanding of Kubernetes and how to create a pod, service, and deployment. You should also have the kubectl command-line tool installed and configured to interact with your Kubernetes cluster.
