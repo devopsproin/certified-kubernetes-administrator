@@ -1,5 +1,5 @@
 # Environment Variables in Kubernetes Part 3: Exposing Pod Information to Containers Through Files
-This repository contains the YAML files used in the video tutorial Environment Variables in Kubernetes Part 3: Exposing Pod Information to Containers Through Files. In this video, you will learn how to expose pod information to containers through files in Kubernetes.
+This repository contains the YAML files used in the video tutorial [Environment Variables in Kubernetes Part 3: Exposing Pod Information to Containers Through Files](https://youtu.be/fYjYzyZeaXM). In this video, you will learn how to expose pod information to containers through files in Kubernetes.
 
 ## Prerequisites
 Before starting with this tutorial, you should have a basic understanding of Kubernetes and how to create a pod, service, and deployment. You should also have the kubectl command-line tool installed and configured to interact with your Kubernetes cluster.
