@@ -29,3 +29,4 @@ The following topics are covered in this tutorial series:
 ### 23. [Kubernetes Kind](https://youtu.be/DfmxNzbGPzY)
 ### 24. [Ingress Demo](https://youtu.be/pcADx8JFUIA)
 ### 25. [Multi-Node Kubernetes Cluster with Kubeadm](https://youtu.be/6_i1hXXviHw)
+### 26. [Network Policy](https://youtu.be/-PipuYclU6Q)
