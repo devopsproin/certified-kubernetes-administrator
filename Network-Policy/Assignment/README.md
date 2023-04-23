@@ -1,7 +1,7 @@
 # Assignment: Create a Network Policy in Kubernetes
 
 ## Description
-This is an assignment for the Certified Kubernetes Administrator 2023 YouTube series. The assignment requires you to create a YAML file for a network policy in Kubernetes that meets the following requirements:
+This is an assignment for the [Certified Kubernetes Administrator 2023](https://www.youtube.com/playlist?list=PLY63ZQr2Y5BHkJJhwPjJuJ41CIyv3m7Ru) YouTube series. The assignment requires you to create a YAML file for a network policy in Kubernetes that meets the following requirements:
 
 - Name of the network policy will be db-network-policy.
 - This network policy will apply on db pod, and the label of db-pod is `role: db-pod`.
