@@ -1,6 +1,6 @@
 # Network Policy in Kubernetes Lab Exercise
 
-This readme contains instructions and code for a lab exercise to demonstrate how to limit access to a Kubernetes service using network policies. This lab exercise is related to the video "Network Policy in Kubernetes" on the DevOps Pro channel.
+This readme contains instructions and code for a lab exercise to demonstrate how to limit access to a Kubernetes service using network policies. This lab exercise is related to the video "[Network Policy in Kubernetes](https://youtu.be/-PipuYclU6Q)" on the DevOps Pro channel.
 
 We encourage you to perform this practical alongside the video to get hands-on experience with network policies in Kubernetes.
 
