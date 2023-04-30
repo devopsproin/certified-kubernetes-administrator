@@ -30,3 +30,4 @@ The following topics are covered in this tutorial series:
 ### 24. [Ingress Demo](https://youtu.be/pcADx8JFUIA)
 ### 25. [Multi-Node Kubernetes Cluster with Kubeadm](https://youtu.be/6_i1hXXviHw)
 ### 26. [Network Policy](https://youtu.be/-PipuYclU6Q)
+### 27. [What is Statefulsets?](https://youtu.be/DtXVK-z7URY)
