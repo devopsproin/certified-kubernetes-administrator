@@ -17,12 +17,12 @@ spec:
   clusterIP: None
 ```
 
-### To apply the Headless Service YAML file
+### To apply the Headless Service YAML file, use the following command:
 ```
 kubectl apply -f service.yaml
 ```
 
-### To retrieve the information about the "headless-svc" service.
+### To retrieve the information about the "headless-svc" service, use the following command:
 ```
 kubectl get service headless-svc
 ```
@@ -55,33 +55,33 @@ spec:
           name: web
 ```
 
-### To apply the StatefulSet YAML file.
+### To apply the StatefulSet YAML file, use the following command:
 ```
 kubectl apply -f sts.yaml
 ```
 
-### To retrieve the information about the "web" StatefulSet, including the number of replicas and their current status.
+### To retrieve the information about the "web" StatefulSet, including the number of replicas and their current status, use the following command:
 ```
 kubectl get sts web
 ```
 
-### To retrieve the information about the pods associated with the "nginx" application and continuously monitors their status.
+### To retrieve the information about the pods associated with the "nginx" application and continuously monitors their status, use the following command:
 ```
 kubectl get pods -w -l app=nginx
 ```
 
-### To scale the "web" StatefulSet
+### To scale the "web" StatefulSet, use the following command:
 ```
 kubectl scale sts web --replicas=4
 ```
 
-### To delete the "web" StatefulSet and all associated pods.
+### To delete the "web" StatefulSet and all associated pods, use the following command:
 ```
 kubectl delete sts web
 ```
 
 ## Storage with StatefulSet
-The Storage with StatefulSet YAML file extends the previous StatefulSet example by adding a PersistentVolumeClaim (PVC) for storage. It mounts a volume to the nginx containers in the StatefulSet.
+The Storage with StatefulSet YAML file extends the previous StatefulSet example by adding a PersistentVolumeClaim (PVC) for storage using volumeClaimTemplates field. It mounts a volume to the nginx containers in the StatefulSet.
 
 sts.yaml:-
 ```
@@ -118,8 +118,9 @@ spec:
        
 ```
 
-### To apply the Storage with StatefulSet YAML file to create the StatefulSet with persistent storage in the Kubernetes cluster.
+### To apply the Storage with StatefulSet YAML file to create the StatefulSet with persistent storage in the Kubernetes cluster, use the following command:
 ```
 kubectl apply -f sts.yaml
 ```
 
+In conclusion, this Kubernetes StatefulSet Guide provides a set of YAML files and commands to help you deploy and manage stateful applications in a Kubernetes cluster. It covers the creation of a Headless Service for direct pod discovery and connection, the deployment and scaling of a StatefulSet with replicas, and the integration of persistent storage using a PersistentVolumeClaim (PVC). By following the instructions and using the provided examples, you can effectively utilize StatefulSets and leverage the power of Kubernetes for your stateful application needs.
