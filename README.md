@@ -31,3 +31,7 @@ The following topics are covered in this tutorial series:
 ### 25. [Multi-Node Kubernetes Cluster with Kubeadm](https://youtu.be/6_i1hXXviHw)
 ### 26. [Network Policy](https://youtu.be/-PipuYclU6Q)
 ### 27. [What is Statefulsets?](https://youtu.be/DtXVK-z7URY)
+### 28. [Persistent Volume & Persistent Volume Claim](https://youtu.be/6GkEFqdjdRM)
+### 29. [EBS Volume Provisioning with Storage Class](https://youtu.be/NO_RYhw5v8E)
+### 30. [Kubernetes Headless Service & StatefulSet Creation](https://youtu.be/qGCtpGhmn80)
+### 31. [Kubernetes MultiContainer & InitContainer Pods](https://youtu.be/9NTr6EFmxkI)
