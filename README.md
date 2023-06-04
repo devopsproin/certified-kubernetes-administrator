@@ -35,3 +35,5 @@ The following topics are covered in this tutorial series:
 ### 29. [EBS Volume Provisioning with Storage Class](https://youtu.be/NO_RYhw5v8E)
 ### 30. [Kubernetes Headless Service & StatefulSet Creation](https://youtu.be/qGCtpGhmn80)
 ### 31. [Kubernetes MultiContainer & InitContainer Pods](https://youtu.be/9NTr6EFmxkI)
+### 32. [RBAC in Kubernetes](https://youtu.be/MGCF6slXG0w)
+
