@@ -36,4 +36,5 @@ The following topics are covered in this tutorial series:
 ### 30. [Kubernetes Headless Service & StatefulSet Creation](https://youtu.be/qGCtpGhmn80)
 ### 31. [Kubernetes MultiContainer & InitContainer Pods](https://youtu.be/9NTr6EFmxkI)
 ### 32. [RBAC in Kubernetes](https://youtu.be/MGCF6slXG0w)
-
+### 33. [Service Account](https://youtu.be/406g4nozS_o)
+### 34. [Security Context](https://youtu.be/4a_9zflKxqs)
