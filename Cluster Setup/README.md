@@ -19,7 +19,7 @@ Update the system's package list and install necessary dependencies using the fo
 
 ```
 sudo apt-get update
-sudo apt install apt-transport-https curl
+sudo apt install apt-transport-https curl -y
 ```
 
 ## Install containerd
