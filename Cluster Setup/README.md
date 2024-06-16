@@ -53,6 +53,11 @@ Set SystemdCgroup to true:
 SystemdCgroup = true
 ```
 
+or use this command
+```
+sudo sed -i 's/^SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
+```
+
 Restart containerd:
 ```
 sudo systemctl restart containerd
@@ -62,9 +67,12 @@ sudo systemctl restart containerd
 To install Kubernetes, use the following commands:
 
 ```
-curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add
-sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
-sudo apt install kubeadm kubelet kubectl kubernetes-cni
+curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.30/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.30/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubelet kubeadm kubectl
+sudo apt-mark hold kubelet kubeadm kubectl
+sudo systemctl enable --now kubelet
 ```
 
 ## Disable swap
