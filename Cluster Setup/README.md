@@ -55,7 +55,7 @@ SystemdCgroup = true
 
 or use this command
 ```
-sudo sed -i 's/^SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
+sudo sed -i -e 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
 ```
 
 Restart containerd:
